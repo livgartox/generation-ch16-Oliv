@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--<link rel="stylesheet" href="assets/css/estilos.css">-->
+    <link rel="stylesheet" href="assets/css/selector.css">
     <style type="text/css" media="all">
         *{
             font-size: x-large;
@@ -17,9 +18,32 @@
             color: #56bd31e0
         }
     </style>
+    <style>
+        *.univ{
+            color: rgb(20, 17, 13);
+        }
+    </style>
+    <style>
+        p #alm1{
+            color: chartreuse;
+        }
+    </style>
 </head>
 <body>
-    <h1>prueba</h1>
+    <div>
+        <ul>
+            <li>Elemento1 no afectado</li>
+            <li>Elemento2 no afectado</li>
+        </ul>
+        <p>
+            Párrafo con estilos descendientes
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, earum. Culpa quod unde dignissimos! Iure eius repudiandae dolorum consequuntur nam, dolor commodi eaque nulla minus, voluptates tenetur facilis quasi voluptatem!
+        </p>
+    </div>
+    <h1 id="alm1">prueba</h1>
+    <p class="univ">
+        párrafo con el selector universal Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia libero tempore voluptate non assumenda, explicabo sit soluta, sequi quis, ad facere dolores est accusamus illum! Natus debitis fugiat a nostrum.
+    </p>
 <div class="nuevo">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Aliquid quis rerum aperiam velit laborum aliquam. <br> Libero, excepturi reiciendis eum quas sit autem quibusdam adipisci voluptatem. <br> Quidem, optio. Corrupti, earum harum!
 </div>
