@@ -3,7 +3,8 @@ div{
     margin: 10px;
     padding: 10px;
 }
-
+/*Para estilo de selectores de tipo Hijo*/
 div > p{
     color: red;
 }
+/*Para estilos de selectores de tipo hermano*/
