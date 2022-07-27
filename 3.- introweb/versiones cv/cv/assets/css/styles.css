@@ -1,0 +1,9 @@
+*{
+    background-color: rgba(131, 175, 175, 0.611);
+}
+div{
+    display: inline-block;
+    border: 5px solid darkblue;
+    height: 150px;
+    width: 200px;
+}
