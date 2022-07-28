@@ -1,0 +1,54 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+.cuadropadre{
+    background-color: rgb(247, 168, 140);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+}
+
+.cuadro{
+    margin: 0px 40px 30px 20px;
+    padding: 20px;
+    border: 10px solid rgb(13, 13, 1);
+    border-radius: 20px 30px 20px 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.el-1{
+    background-color: blueviolet;
+    align-self: flex-start;
+    flex-grow: 1;
+}
+.el-2{
+    background-color: rgb(224, 224, 45);
+    flex-grow: 1;
+}
+.el-3{
+    background-color: green;
+    flex-grow: 1;
+}
+.el-4{
+    background-color: pink;
+    flex-grow: 1;
+}
+.el-5{
+    background-color: rgb(232, 117, 136);
+}
+.contenedor{
+    height: 1000px;
+    background-color: rgb(186, 115, 222);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.fila{
+    display:flex
+}
+.columna{
+    flex-grow: ;
+}
