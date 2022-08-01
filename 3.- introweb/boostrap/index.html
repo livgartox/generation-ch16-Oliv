@@ -8,10 +8,68 @@
     <link rel="stylesheet" href="bootstrap-4/css/bootstrap.min.css">
 </head>
 <body>
+    <!--
     <h1>Introducción a Bootstrap</h1>
     <h2>Esto es sólo una introducción</h2>
-    <button>Soy un botón</button>
+    <button class="btn-success">Soy un botón</button>
     <script type="text/javascript" src="bootstrap-4/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="jQuery/jquery-3.6.0.min.js"></script>
+    -->
+    <!-- uso de container -->
+    <div class="container border">
+        <header class="col-12 bg-primary text-white p-2">
+            <h1>Esto es sólo una introducción</h1>
+        </header>
+    </div>
+    <nav class="col-12 bg-secondary">
+        <ul id="menu" class="nav row w-100">
+            <li class="col">Inicio</li>
+            <li class="col">Pàgina</li>
+            <li class="col">Pàgina</li>
+            <li class="col">Pàgina</li>
+            <li class="col">Contacto</li>
+        </ul>
+    </nav>
+
+    <section class="col-12 border">
+        <div class="row">
+            <section class="col-9 border">
+                <!-- contenido productos -->
+                <h2>Productos</h2>
+                <hr>
+                <div class="items row">
+                    <div class="item col-3 bg-primary m-2">
+                        producto 1
+                    </div>
+                    <div class="item col-3 bg-secondary m-2">
+                        producto 2
+                    </div>
+                    <div class="item col-3 bg-danger m-2">
+                        producto 3
+                    </div>
+
+                    <div class="item col-3 bg-primary m-2">
+                        producto 1
+                    </div>
+                    <div class="item col-3 bg-secondary m-2">
+                        producto 2
+                    </div>
+                    <div class="item col-3 bg-danger m-2">
+                        producto 3
+                    </div>
+                </div>
+            </section>
+
+            <!-- barra lateral -->
+            <aside class="col-3">
+                <h2>Barra lateral</h2>
+    
+            </aside>
+        </div>
+    </section>
+    <footer class="col-lg-12 bg-info">
+        Esto es un footer
+    </footer>
+
 </body>
 </html>
