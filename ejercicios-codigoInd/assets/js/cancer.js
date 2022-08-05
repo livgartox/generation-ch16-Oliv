@@ -6,6 +6,15 @@ Considera:
 Solicitar el valor por medio de un prompt
 Crear funciones para realizar los cálculos
 Mostrar los resultados mediante alertas
+*/
+/*
+Crea una calculadora para convertir un valor ingresado por el usuario a grados Celsius, Fahrenheit y Kelvin.
+
+Considera:
+
+Solicitar el valor por medio de un prompt
+Crear funciones para realizar los cálculos
+Mostrar los resultados mediante alertas
 
 */
 
