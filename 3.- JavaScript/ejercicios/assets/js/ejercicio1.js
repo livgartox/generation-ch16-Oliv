@@ -9,6 +9,8 @@ Se agregan dos personas más al final de la fila: Sara y Augustin. La primera pe
 parte 3
 Resulta que David estaba reservando un lugar para su amiga Renata. Ella aparece y va detrás de él en la fila. Aparece una persona más (Elena) y va hasta el final de la fila. ¿Cómo es la cola?
 */
+
+/*
 //Parte 1
 let fila=["Sofía", "David","Juan"];
 //Parte 2
@@ -19,3 +21,4 @@ console.log(fila);
 fila.splice(1,0,"Renata");
 fila.push("Elena")
 console.log(fila);
+*/

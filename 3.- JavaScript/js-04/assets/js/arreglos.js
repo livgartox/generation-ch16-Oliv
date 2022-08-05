@@ -46,3 +46,4 @@ console.log(arreglo);
 let dato3=arreglo.slice(1,2);
 console.log("entender el arreglo",arreglo);
 console.log(dato3)
+

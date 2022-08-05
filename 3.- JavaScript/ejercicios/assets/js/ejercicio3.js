@@ -24,7 +24,7 @@ while (xValue>0){
 console.log("Segundo código")
 let tipo;
 for(let i=1;i<=100;i++){
-    if (i%2==0){
+    if (i%2!==0){
         console.log(i);
     }
 }
@@ -36,6 +36,7 @@ for (let j=1;j<=n;j++){
     arrNumbers.push(j);
 }
 console.log(arrNumbers);
+/*
 //----------------------------------------------4
 let suma=0;
 n=Number(prompt("Ingrese n"));
