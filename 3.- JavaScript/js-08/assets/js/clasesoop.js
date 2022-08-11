@@ -18,4 +18,4 @@ console.log(Persona);
 console.log(persona1);
 console.log(persona2);
 persona1.nombre='Lupita Toxqui';
-console.log(persona1);
+//console.log(persona1);
