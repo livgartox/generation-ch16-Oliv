@@ -53,6 +53,8 @@ public class EjemploVariables {
         System.out.println("Byte valor máximo: " + Byte.MAX_VALUE);
         System.out.println("Byte valor mínimo = " + Byte.MIN_VALUE);
 
+        String tema="Manejo de \"String\"";
+        System.out.println("tema = " + tema);
 
 
     }
