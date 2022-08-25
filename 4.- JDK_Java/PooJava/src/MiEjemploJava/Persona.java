@@ -5,16 +5,47 @@ public class Persona {
         private int edad;
         private int nss;
         //Constructor
-        public Persona(String nombre, int edad, int nss) {
-            this.nombre = nombre;
-            this.edad = edad;
-            this.nss = nss;
+
+        public Persona(){
+
+        }
+        public Persona(String nuevonombre, int nuevaedad, int nuevonss) {
+            this.nombre = nuevonombre;
+            this.edad = nuevaedad;
+            this.nss = nuevonss;
         }
 
-        Persona(){
+        //métodos accesores
+    //Método accesor Set
 
-            }
-            void caminar(){
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public void setNss(int nss) {
+        this.nss = nss;
+    }
+
+    //Método accesor getter
+    //Permite entrar al método privado
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public int getNss() {
+        return nss;
+    }
+
+    void caminar(){
                 System.out.println("Caminando");
             }
             void dormir(){
