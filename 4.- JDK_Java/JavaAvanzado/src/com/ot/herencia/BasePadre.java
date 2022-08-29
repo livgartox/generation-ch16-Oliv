@@ -2,7 +2,7 @@ package com.ot.herencia;
 
 public class BasePadre {
     //atributos
-    protected static int a;
+    protected int a;
     private double b;
     private String c;
     //Constructor vacío
