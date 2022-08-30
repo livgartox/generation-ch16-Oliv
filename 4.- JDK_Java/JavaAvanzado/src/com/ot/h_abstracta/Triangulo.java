@@ -5,13 +5,18 @@ public class Triangulo extends FigurasGeometricas{
     private float altura;
 
     /*Constructor */
+    /*
+    Esto lo vamos a quitar porque en la clase padre pusimos un constructor
+    y esto debería ser capaz de reconocer a sus hijos
     public Triangulo() {
-    }
+    }*/
 
     public Triangulo(float base, float altura) {
+        super("Triangulo");
         this.base = base;
         this.altura = altura;
     }
+
     @Override
     public float area(){
         return (getBase()*getAltura())/2;
