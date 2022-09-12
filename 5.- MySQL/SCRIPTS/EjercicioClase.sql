@@ -96,6 +96,7 @@ VALUES(1,"Dinos",7,"Epimerch"),
 INSERT INTO Direccion(alumno_id,calle,pais,cp)
 VALUES(1,"C","México",1234);
 
+describe Cohorte;
 SELECT * FROM Cohorte;
 SELECT * FROM Alumno;
 SELECT * FROM Instructor;
