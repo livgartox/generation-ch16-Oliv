@@ -1,0 +1,5 @@
+package com.generation.mvc.security;
+
+public class JWTAuthenticationFilter {
+
+}
